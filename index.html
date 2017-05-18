@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GifTastic</title>
+
+    <!-- Added link to the jQuery Library -->
+    <!-- <script src="https://code.jquery.com/jquery-3.1.1.js"></script> -->
+    
+    <!-- Added a link to Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+<body>
+
+<div class="container-fluid">
+
+    <div class="row header">
+
+        <!-- Button Panel -->
+        <div class="col-lg-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Available Buttons: </h3>
+                </div>
+
+                <div class="panel-body button-display">
+                    <!-- <button id="button-1" type='button' class="btn btn-sm btn-primary" value=1></button> -->
+                </div>
+
+            </div>
+        </div>
+     
+    </div>
+
+    <div class="row">
+
+        <!-- Result Panel -->
+        <div class="col-lg-8">
+            <div id="images">
+            </div>           
+        </div>
+
+        <div class="col-lg-4">
+            <form id="car-form">
+                <!-- <label for="movie-input">Add a Movie</label> -->               
+                <!-- Button triggers new movie to be added -->
+                <button id="add-car" class="btn btn-md btn-primary" type="submit" 
+                        value="Add a car Brand- make it speedy!">Add a car Brand- make it speedy!</button>
+                <input type="text" id="car-input"><br>
+
+            </form>
+        </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+<script type="text/javascript" src="assets/javascript/GifTastic.js"></script>
+
+</body>
+</html>
