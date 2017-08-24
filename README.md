@@ -9,7 +9,8 @@ Technology used:
 - Javascript
 - HTML/CSS/Bootstrap
 - Jquery
-- API
+- Ajax
+- API calls
 
 Future Improvements:
 
